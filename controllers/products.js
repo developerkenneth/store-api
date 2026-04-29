@@ -37,7 +37,6 @@ const index = async (req, res) => {
 
         }
 
-        console.log(queries);
         let result = Product.find(queries);
 
 
